@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_ex_ecom/screens/home.dart';
+import 'package:flutter_ex_ecom/screens/producdetails.dart';
 
 void main() {
   runApp(const MyApp());
