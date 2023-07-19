@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_ex_ecom/screens/auth/login.dart';
 import 'package:flutter_ex_ecom/screens/home.dart';
 import 'package:flutter_ex_ecom/screens/producdetails.dart';
 
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const ProductDetails(),
+      home: const Login(),
     );
   }
 }
